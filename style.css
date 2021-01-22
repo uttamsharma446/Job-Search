@@ -2,6 +2,10 @@
     font-family: 'Roboto', sans-serif;
     
 }
+.nav-toggler{
+    border:1px solid red;
+    border-color:black;
+}
 .container{
     margin-top:20px;
 }
@@ -31,8 +35,9 @@ label{
     font-size:2.8vh;
 }
 .input-search{
-    width:80%;
-    font-size:2vh;
+    width:100%;
+    height:50px;
+    font-size:3vh;
 }
 .btn-search{
     border:none;
@@ -41,11 +46,20 @@ label{
     color: white;
     border-bottom-right-radius:5px;
     border-top-right-radius:5px;
-
+    height:50px;
     padding:1px;
     width: 50px;
    
    
+}
+.view-details a{
+    color:blue;
+    font-size:2vh;
+
+}
+.view-details a:hover{
+    text-decoration: none;
+
 }
 .show-job{
     margin:10px 0;
@@ -56,14 +70,46 @@ label{
     width: 380px;
     
 }
+.show-img-demo{
+    width:100%;
+    padding:20px;
+   
+    
+}
+.show-jobs{
+    margin-bottom:10%;
+}
+.salary-text{
+    font-size:2vh;
+    font-weight: 500;
+}
+.job-not-found{
+    text-align: center;
+    margin:30% 0;
+    
+}
+.display-none
+{
+    display: none;
+}
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
+    background-color: #eff7e1;
+    color: black;
     text-align: center;
+    opacity:0.6;
+    padding-top:10px;
+ }
+ .footer-icon a{
+     font-size:3vh;
+     color: black;
+     margin-left:10px;
+ }
+ .footer-icon a:hover{
+     text-decoration:none;
  }
  .job-title{
      font-size:3.5vh;
@@ -79,13 +125,14 @@ label{
  }
  @media only screen and (max-width: 600px) {
     .input-search{
-        width:120px;
-        height:20px;
-        font-size:1.3vh;
+        width:100%;
+        height:30px;
+        font-size:2vh;
     }
     .btn-search{
-        width: 25px;
-        height:20px;
+        width: 30px;
+        height:30px;
+        margin-top:10px;
         font-size:2.7vh;
         border-bottom-right-radius:0px;
          border-top-right-radius:0px;
@@ -93,6 +140,22 @@ label{
     .search-box{
       
         width: 100%;
+        
         position: relative;;
+    }
+    .job-not-found{
+        text-align: center;
+        margin:10% 0;
+    }
+    .show-img-demo{
+       display: none;
+       
+        
+    }
+    .job-not-found h1{
+        font-size:2vh;
+    }
+    .show-jobs{
+        margin-bottom:25%;
     }
 }

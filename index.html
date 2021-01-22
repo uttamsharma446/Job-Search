@@ -25,15 +25,15 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-bottom-shadow">
+    <nav class="navbar navbar-expand-md navbar-bottom-shadow navbar-light bg-light">
         <!-- Brand -->
 
         <a class="navbar-brand" href="./index.html"><img src="./Images//1.png" width="30px" alt=""></a>
 
         <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" style="background-color:red;color:white" type="button" data-toggle="collapse"
+        <button class="navbar-toggler"  type="button" data-toggle="collapse"
             data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon" style="color: white;"></span>
+            <span class="navbar-toggler-icon" style="color:black;"></span>
         </button>
 
         <!-- Navbar links -->
@@ -54,26 +54,26 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
+                
                 <div class="card search-box">
 
                     <div class="card-body">
-                        <!-- <div style="text-align: center;">
-                            <label>Filters</label>
-                        </div>
-                        <label>Category</label> <br />
-                        <input type="text" class="input-text" id="">
-                        <br />
-                        <label>location</label> <br />
-                        <input type="text" class="input-text" id="">
-                        <br /> -->
-                        <label> Search</label>
+                        
+                        <label> Search Jobs</label>
 
-                        <form>
-                            <input type="text" class="input-search " placeholder="eg. Web Developer Full Stack Developer" id="inputData"  onkeyup="handleSearch()" > 
-                            <button class="btn-search "type="submit"><i class="fa  fa-search"style="font-size: 1.5vh;" ></i></button>
-                        </form>
+                       
+                            <input type="text" class="input-search " placeholder="eg. Web Developer" id="inputData"  onkeyup="handleSearch()" > 
+                            <!-- <button class="btn-search "type="submit"><i class="fa  fa-search"style="font-size: 1.5vh;" ></i></button> -->
+                        
                     </div>
+                    <div>
+                        <img src="./Images/image-asset.jpeg" class="show-img-demo"  alt="image">
+                    </div>
+                    
                 </div>
+                
+                
+                
 
             </div>
             <div class="col-lg-7 show-jobs" id="show-job">
@@ -85,8 +85,8 @@
                         <p class="company-name"> <i class="fa fa-building" aria-hidden="true"></i> TutorBin </p> 
                         <label style="color: #1a508b;"><i class="fa fa-map-marker" aria-hidden="true"></i> Gurgaon</label>
                         <p class="salary-text">salary  <small style="float: right; color: grey;"> <i class="fa fa-rupee"></i> 14000-34000 /month </small> </p>
-                        <div style="text-align:right"><a href="#">View Details ></a>
-                            <small style="float: left; color: grey;">Fresher Job</small>
+                        <div style="text-align:right" class="view-details"><a href="#">View Details ></a>
+                            
                         
                         </div>
                     </div>
@@ -95,12 +95,12 @@
                     <div class="card-body">
                       <img src="./Images/job4.png" style="float: right;" width=45px" alt="">
                           
-                          <h4 class="job-title" id="job-title" >Front Stack Developer</h4> 
+                          <h4 class="job-title" id="job-title" >Web Developer</h4> 
                           <p class="company-name"> <i class="fa fa-building" aria-hidden="true"> FrontEndSMS</i></p> 
                           <label style="color: #1a508b;"><i class="fa fa-map-marker" aria-hidden="true"></i> Mumbai</label>
                           <p class="salary-text">salary  <small style="float: right; color: grey;"> <i class="fa fa-rupee"></i> 14000-34000 /month </small> </p>
-                          <div style="text-align:right"><a href="#">View Details ></a>
-                              <small style="float: left; color: grey;">Fresher Job</small>
+                          <div style="text-align:right" class="view-details"><a href="#">View Details ></a>
+                              
                           
                           </div>
                       </div>
@@ -113,8 +113,8 @@
                           <p class="company-name"> <i class="fa fa-building" aria-hidden="true"> UpdatedDeveloper</i>  </p> 
                           <label style="color: #1a508b;"><i class="fa fa-map-marker" aria-hidden="true"></i> Chennai</label>
                           <p class="salary-text">salary  <small style="float: right; color: grey;"> <i class="fa fa-rupee"></i> 15000-34000 /month </small> </p>
-                          <div style="text-align:right"><a href="#">View Details ></a>
-                              <small style="float: left; color: grey;">Fresher Job</small>
+                          <div style="text-align:right" class="view-details"><a href="#">View Details ></a>
+                              
                           
                           </div>
                       </div>
@@ -127,8 +127,8 @@
                           <p class="company-name"> <i class="fa fa-building" aria-hidden="true"></i> SMCE </p> 
                           <label style="color: #1a508b;"><i class="fa fa-map-marker" aria-hidden="true"></i> Goa</label>
                           <p class="salary-text">salary  <small style="float: right; color: grey;"> <i class="fa fa-rupee"></i> 1000-10000 /month </small> </p>
-                          <div style="text-align:right"><a href="#">View Details ></a>
-                              <small style="float: left; color: grey;">Fresher Job</small>
+                          <div style="text-align:right" class="view-details"><a href="#">View Details ></a>
+                              
                           
                           </div>
                       </div>
@@ -141,11 +141,14 @@
                           <p class="company-name"> <i class="fa fa-building" aria-hidden="true"></i> RakCap </p> 
                           <label style="color: #1a508b;"><i class="fa fa-map-marker" aria-hidden="true"></i> New Delhi</label>
                           <p class="salary-text">salary  <small style="float: right; color: grey;"> <i class="fa fa-rupee"></i> 10000-14000 /month </small> </p>
-                          <div style="text-align:right" ><a href="#">View Details ></a>
-                              <small style="float: left; color: grey;">1-2 Year Experience</small>
+                          <div style="text-align:right" class="view-details" ><a href="#">View Details ></a>
+                              
                           
                           </div>
                       </div>
+                </div>
+                <div class="job-not-found display-none" style="text-align: center; margin:30% 0;">
+                   <img src="./Images/not found.png" width="20%"> <br/> <h1> Jobs Not Found</h1>
                 </div>
                
                   
@@ -156,7 +159,20 @@
     </div>
     <!-- this is for footer -->
     <div class="footer">
-        <p>Footer</p>
+       
+        <p class="footer-icon">
+            <a href="#">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a> <br/>
+            <small>© Copyright 2021. All Rights Reserved.</small>
+        </p>
+       
     </div>
 </body>
 <script src="./index.js"></script>
