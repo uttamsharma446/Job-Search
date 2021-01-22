@@ -69,28 +69,83 @@
                         <label> Search</label>
 
                         <form>
-                            <input type="text" class="input-search " placeholder="eg. Web Developer Full Stack Developer" id=""> <button
-                                class="btn-search " type="submit"><i class="fa  fa-search"
-                                    style="font-size: 1.5vh;"></i></button>
+                            <input type="text" class="input-search " placeholder="eg. Web Developer Full Stack Developer" id="inputData"  onkeyup="handleSearch()" > 
+                            <button class="btn-search "type="submit"><i class="fa  fa-search"style="font-size: 1.5vh;" ></i></button>
                         </form>
                     </div>
                 </div>
 
             </div>
-            <div class="col-lg-7 show-jobs">
-                <div class="card show-job">
+            <div class="col-lg-7 show-jobs" id="show-job">
+                <div class="card show-job job" >
                   <div class="card-body">
                     <img src="./Images/tblogo.svg" style="float: right;" width=45px" alt="">
                         
-                        <h4 class="job-title">Front End Developer</h4> 
+                        <h4 class="job-title" id="job-title" >Front End Developer</h4> 
                         <p class="company-name"> <i class="fa fa-building" aria-hidden="true"></i> TutorBin </p> 
                         <label style="color: #1a508b;"><i class="fa fa-map-marker" aria-hidden="true"></i> Gurgaon</label>
-                        <p style="font-size:2.5vh;">salary  <small style="float: right; color: grey;"> Rs.14000-34000 /month </small> </p>
+                        <p class="salary-text">salary  <small style="float: right; color: grey;"> <i class="fa fa-rupee"></i> 14000-34000 /month </small> </p>
                         <div style="text-align:right"><a href="#">View Details ></a>
                             <small style="float: left; color: grey;">Fresher Job</small>
                         
                         </div>
                     </div>
+                </div>
+                <div class="card show-job job" id="job">
+                    <div class="card-body">
+                      <img src="./Images/job4.png" style="float: right;" width=45px" alt="">
+                          
+                          <h4 class="job-title" id="job-title" >Front Stack Developer</h4> 
+                          <p class="company-name"> <i class="fa fa-building" aria-hidden="true"> FrontEndSMS</i></p> 
+                          <label style="color: #1a508b;"><i class="fa fa-map-marker" aria-hidden="true"></i> Mumbai</label>
+                          <p class="salary-text">salary  <small style="float: right; color: grey;"> <i class="fa fa-rupee"></i> 14000-34000 /month </small> </p>
+                          <div style="text-align:right"><a href="#">View Details ></a>
+                              <small style="float: left; color: grey;">Fresher Job</small>
+                          
+                          </div>
+                      </div>
+                </div>
+                <div class="card show-job job" id="job">
+                    <div class="card-body">
+                      <img src="./Images/job3.png" style="float: right;" width=45px" alt="">
+                          
+                          <h4 class="job-title" id="job-title" >Full Stack Developer</h4> 
+                          <p class="company-name"> <i class="fa fa-building" aria-hidden="true"> UpdatedDeveloper</i>  </p> 
+                          <label style="color: #1a508b;"><i class="fa fa-map-marker" aria-hidden="true"></i> Chennai</label>
+                          <p class="salary-text">salary  <small style="float: right; color: grey;"> <i class="fa fa-rupee"></i> 15000-34000 /month </small> </p>
+                          <div style="text-align:right"><a href="#">View Details ></a>
+                              <small style="float: left; color: grey;">Fresher Job</small>
+                          
+                          </div>
+                      </div>
+                </div>
+                <div class="card show-job job" id="job">
+                    <div class="card-body">
+                      <img src="./Images/job2.png" style="float: right;" width=45px" alt="">
+                          
+                          <h4 class="job-title" id="job-title" >Social Media Marketing</h4> 
+                          <p class="company-name"> <i class="fa fa-building" aria-hidden="true"></i> SMCE </p> 
+                          <label style="color: #1a508b;"><i class="fa fa-map-marker" aria-hidden="true"></i> Goa</label>
+                          <p class="salary-text">salary  <small style="float: right; color: grey;"> <i class="fa fa-rupee"></i> 1000-10000 /month </small> </p>
+                          <div style="text-align:right"><a href="#">View Details ></a>
+                              <small style="float: left; color: grey;">Fresher Job</small>
+                          
+                          </div>
+                      </div>
+                </div>
+                <div class="card show-job job" id="job">
+                    <div class="card-body">
+                      <img src="./Images/1.jpg" style="float: right;" width=45px" alt="">
+                          
+                          <h4 class="job-title" id="job-title" >JavaScript Development</h4> 
+                          <p class="company-name"> <i class="fa fa-building" aria-hidden="true"></i> RakCap </p> 
+                          <label style="color: #1a508b;"><i class="fa fa-map-marker" aria-hidden="true"></i> New Delhi</label>
+                          <p class="salary-text">salary  <small style="float: right; color: grey;"> <i class="fa fa-rupee"></i> 10000-14000 /month </small> </p>
+                          <div style="text-align:right" ><a href="#">View Details ></a>
+                              <small style="float: left; color: grey;">1-2 Year Experience</small>
+                          
+                          </div>
+                      </div>
                 </div>
                
                   

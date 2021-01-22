@@ -73,6 +73,10 @@ label{
      color: #cdd0cb;
      font-weight: bold;
  }
+ .salary{
+     font-size:1.3vh;
+     color:red;
+ }
  @media only screen and (max-width: 600px) {
     .input-search{
         width:120px;
@@ -87,7 +91,7 @@ label{
          border-top-right-radius:0px;
     }
     .search-box{
-       
+      
         width: 100%;
         position: relative;;
     }

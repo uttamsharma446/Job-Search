@@ -1,12 +1,21 @@
-const ele = document.createElement('div');
-ele.innerHTML = "<h1>Hello uttam </h1>";
-var arr=["uttam","hii","how ","sharma","where ","uttam"]
-var jobtitle=""
-for(var i=0;i<arr.length;i++)
-{
-    if(arr[i]==="uttam")
-    {
-        jobtitle+=arr[i]+"<br/>"
+function handleSearch() {
+    var inputData = document.querySelector("#inputData").value.toUpperCase();
+    var AllJob = document.getElementById("show-job")
+    var jobs = AllJob.getElementsByClassName("job")
+    for (var i = 0; i < jobs.length; i++) {
+        var job = jobs[i].querySelector(".job-title").textContent.toUpperCase();
+        if(job.indexOf(inputData)>-1)
+        {
+            jobs[i].style.display=""
+        }
+        else if (job.indexOf(inputData)===-1)
+        {
+            jobs[i].style.display="none";
+           
+        }
+        
     }
-    
+
+
+
 }
