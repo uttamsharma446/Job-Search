@@ -1,0 +1,63 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container{
+    margin-top:20px;
+}
+.navbar-bottom-shadow{
+   border-bottom:1px solid #fde8cd ;
+   box-shadow: 5px 5px 5px #888888;
+  
+}
+li a{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+   
+}
+li a:hover{
+    color:#00bcd4;
+}
+label{
+   font-size:2vh;
+   font-weight:bold;
+}
+.same-line{
+   display: inline-block;
+}
+.input-text{
+    width:100%;
+    margin:10px 0;
+    font-size:2.8vh;
+}
+.input-search{
+    width:90%;
+    font-size:2.8vh;
+}
+.btn-search{
+    border:none;
+    background-color:#19456b;
+    text-align:center;
+   color: white;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+
+    padding:5px;
+   
+}
+.show-job{
+    margin:10px 0;
+}
+.search-box{
+    margin:10px 0;
+    position: fixed;;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }

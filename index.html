@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS cdn of Bootstarp -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- JS CDN of Bootstarp  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./Images/favicon.ico" />
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Search Job</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-bottom-shadow">
+        <!-- Brand -->
+
+        <a class="navbar-brand" href="./index.html"><img src="./Images//1.png" width="30px" alt=""></a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" style="background-color:red;color:white" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon" style="color: white;"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="card search-box">
+
+                    <div class="card-body">
+                        <div style="text-align: center;">
+                            <label>Filters</label>
+                        </div>
+                        <label>Category</label> <br />
+                        <input type="text" class="input-text" id="">
+                        <br />
+                        <label>location</label> <br />
+                        <input type="text" class="input-text" id="">
+                        <br />
+                        <label> Search</label>
+
+                        <form>
+                            <input type="text" class="input-search same-line" id=""> <button
+                                class="btn-search same-line" type="submit"><i class="fa same-line fa-search"
+                                    style="font-size: 3vh;"></i></button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-7 show-jobs">
+                <div class="card show-job">
+                  <div class="card-body">
+                        
+                        <h4>Job Title</h4> <br />
+                        
+                        <p> <i class="fa fa-building" aria-hidden="true"></i> Company Name </p> <br />
+                      
+                       
+                        <label><i class="fa fa-map-marker" aria-hidden="true"></i> Location</label>
+
+                        <div style="text-align:right"><a href="#">View Details ></a></div>
+                    </div>
+                </div>
+                <div class="card show-job">
+                    <div class="card-body">
+                          
+                          <h4>Job Title</h4> <br />
+                          
+                          <p> <i class="fa fa-building" aria-hidden="true"></i> Company Name </p> <br />
+                        
+                         
+                          <label><i class="fa fa-map-marker" aria-hidden="true"></i> Location</label>
+  
+                          <div style="text-align:right"><a href="#">View Details ></a></div>
+                      </div>
+                  </div>
+                  <div class="card show-job">
+                    <div class="card-body">
+                          
+                          <h4>Job Title</h4> <br />
+                          
+                          <p> <i class="fa fa-building" aria-hidden="true"></i> Company Name </p> <br />
+                        
+                         
+                          <label><i class="fa fa-map-marker" aria-hidden="true"></i> Location</label>
+  
+                          <div style="text-align:right"><a href="#">View Details ></a></div>
+                      </div>
+                  </div>
+               
+                  <div class="card show-job">
+                    <div class="card-body">
+                          
+                          <h4>Job Title</h4> <br />
+                          
+                          <p> <i class="fa fa-building" aria-hidden="true"></i> Company Name </p> <br />
+                        
+                         
+                          <label><i class="fa fa-map-marker" aria-hidden="true"></i> Location</label>
+  
+                          <div style="text-align:right"><a href="#">View Details ></a></div>
+                      </div>
+                  </div>
+
+        </div>
+    </div>
+    <!-- this is for footer -->
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
